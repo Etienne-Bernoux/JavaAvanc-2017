@@ -1,0 +1,7 @@
+package fr.ece.bernoux.lab5JavaFX.Exercice2.View;
+
+import java.util.Observer;
+
+public interface View extends Observer{
+	void start();
+}

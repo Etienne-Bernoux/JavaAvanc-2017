@@ -1,0 +1,31 @@
+package fr.ece.bernoux.lab5JavaFX.Exercice1;
+
+import javafx.application.Application;
+import javafx.scene.Group;
+import javafx.scene.Scene;
+import javafx.scene.text.Font;
+import javafx.scene.text.Text;
+import javafx.stage.Stage;
+
+public class FirstApp extends Application {
+
+	
+
+	public static void main(String[] args) {
+		launch ( args );
+
+	}
+
+	@Override
+	public void start(Stage primaryStage) throws Exception {
+		Text text = new Text (10 , 40, " Hello   World !");
+		text .setFont (new Font (40));
+		
+		Scene scene = new Scene (new Group ( text ));
+		primaryStage.setTitle (" Welcome  to  JavaFX !");
+		primaryStage.setScene ( scene );
+		primaryStage.sizeToScene ();
+		primaryStage.show ();
+	}
+
+}
