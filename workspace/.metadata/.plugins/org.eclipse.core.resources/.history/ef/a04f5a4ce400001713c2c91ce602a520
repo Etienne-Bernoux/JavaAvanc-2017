@@ -1,5 +1,8 @@
 package fr.ece.bernoux.lab5JavaFX.Exercice2.View;
 
+import java.util.Observable;
+
+import fr.ece.bernoux.lab5JavaFX.Exercice2.Controller.Controller;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -24,11 +27,6 @@ public class GUI extends Application{
 		primaryStage.show ();
 
 	}
-	
-	public static void init(String [] args){
-		launch(args);
-	}
-	
 
 
 

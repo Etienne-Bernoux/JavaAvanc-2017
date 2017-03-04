@@ -1,6 +1,10 @@
 package fr.ece.bernoux.lab5JavaFX.Exercice2.Controller;
 
+import java.util.HashSet;
+import java.util.Set;
+
 import fr.ece.bernoux.lab5JavaFX.Exercice2.Model.UserList;
+import fr.ece.bernoux.lab5JavaFX.Exercice2.View.View;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
