@@ -1,0 +1,53 @@
+package fr.ece.bernoux.lab5JavaFX.Exercice2.Model;
+
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
+
+public class UserList {
+	private ObservableList<String> userList;
+
+	public UserList() {
+		super();
+		this.userList = FXCollections.observableArrayList();
+	}
+
+	public boolean addUser(String user) {
+		if (!this.userList.contains(user)) {
+			this.userList.add("coco");
+		}
+		return false;
+	}
+
+	public ObservableList<String> getUserList() {
+		return userList;
+	}
+
+	public void setUserList(ObservableList<String> userList) {
+		this.userList = userList;
+	}
+
+	public String[] getData() {
+		Object[] myArray = this.userList.toArray();
+		String[] myString = new String[myArray.length];
+		//For each String in my array,
+		for (int i = 0; i < myArray.length; i++) {
+			myString[i] = myArray[i].toString();
+
+		}
+
+		return (myString);
+	}
+
+	@Override
+	public String toString() {
+		String result = "";
+		for (String string : userList) {
+			result+= string +"/n";
+		}
+		
+		return result;
+	}
+
+
+
+}

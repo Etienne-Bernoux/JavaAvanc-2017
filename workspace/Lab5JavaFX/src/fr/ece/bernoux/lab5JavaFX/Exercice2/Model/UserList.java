@@ -1,32 +1,35 @@
 package fr.ece.bernoux.lab5JavaFX.Exercice2.Model;
 
-import java.util.ArrayList;
-import java.util.Observable;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 
-public class UserList extends Observable implements Model {
-	private ArrayList<String> userList;
+public class UserList {
+	private ObservableList<User> userList;
 
 	public UserList() {
 		super();
-		this.userList = new ArrayList<>();
+		this.userList = FXCollections.observableArrayList();
+	}
+	public UserList(User user) {
+		super();
+		this.userList = FXCollections.observableArrayList(user);
 	}
 
-	public boolean addUser(String user) {
+	public boolean addUser(User user) {
 		if (!this.userList.contains(user)) {
 			this.userList.add(user);
-			//Make this as has been changed
-			this.setChanged();
-			//Notify all observer that something has been changed ant sent in parameter all the data
-			this.notifyObservers(this.getData());
-			//This has been not changed anymore
-			this.clearChanged();
-			//True if the user has been had
-			return true;
 		}
 		return false;
 	}
 
-	@Override
+	public ObservableList<User> getUserList() {
+		return userList;
+	}
+
+	public void setUserList(ObservableList<User> userList) {
+		this.userList = userList;
+	}
+
 	public String[] getData() {
 		Object[] myArray = this.userList.toArray();
 		String[] myString = new String[myArray.length];
@@ -38,5 +41,17 @@ public class UserList extends Observable implements Model {
 
 		return (myString);
 	}
+
+	@Override
+	public String toString() {
+		String result = "";
+		for (User string : userList) {
+			result+= string.getName() +"/n";
+		}
+		
+		return result;
+	}
+
+
 
 }

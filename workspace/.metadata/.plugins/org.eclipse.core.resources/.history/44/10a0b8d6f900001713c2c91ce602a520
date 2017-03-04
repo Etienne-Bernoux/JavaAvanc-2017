@@ -1,0 +1,8 @@
+package fr.ece.bernoux.lab5JavaFX.Exercice2.Model;
+
+import javafx.beans.property.SimpleStringProperty;
+
+public class User {
+	SimpleStringProperty name;
+
+}
