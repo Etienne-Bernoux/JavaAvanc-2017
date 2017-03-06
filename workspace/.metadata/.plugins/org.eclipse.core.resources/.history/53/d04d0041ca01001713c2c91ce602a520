@@ -1,0 +1,13 @@
+package fr.ece.bernoux.lab5JavaFX.Exercice3;
+
+import javafx.fxml.FXML;
+import javafx.scene.chart.PieChart;
+import javafx.scene.control.TableView;
+
+public class Controller {
+	@FXML
+	private PieChart pieChart;
+	@FXML
+	private TableView tableView;
+
+}

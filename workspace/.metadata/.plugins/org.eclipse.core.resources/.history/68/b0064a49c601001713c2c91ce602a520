@@ -1,0 +1,10 @@
+package fr.ece.bernoux.lab5JavaFX.Exercice3;
+
+import javafx.beans.property.SimpleIntegerProperty;
+import javafx.beans.property.SimpleStringProperty;
+
+public class Majeur {
+	SimpleStringProperty name;
+	SimpleIntegerProperty number;
+
+}

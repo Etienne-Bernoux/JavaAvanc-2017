@@ -1,0 +1,7 @@
+package fr.ece.bernoux.lab5JavaFX.Exercice3;
+
+public class Controller {
+	@fxml
+	private final PieChart pieChart;
+
+}

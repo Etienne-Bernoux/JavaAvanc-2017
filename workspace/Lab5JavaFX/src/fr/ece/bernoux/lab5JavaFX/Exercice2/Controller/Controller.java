@@ -35,7 +35,8 @@ public class Controller {
 	public void initialize() {
 		this.userList = new UserList(new User("Jacob"));
 		
-		TableColumn<User, String>firstNameCol = new TableColumn<User, String>("Name");
+		
+		TableColumn<User, String> firstNameCol = new TableColumn<User, String>("Name");
         firstNameCol.setMinWidth(350);
         firstNameCol.setCellValueFactory(
                 new PropertyValueFactory<User, String>("firstName"));

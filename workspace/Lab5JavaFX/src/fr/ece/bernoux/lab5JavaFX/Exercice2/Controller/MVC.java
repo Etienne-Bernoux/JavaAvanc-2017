@@ -1,6 +1,5 @@
 package fr.ece.bernoux.lab5JavaFX.Exercice2.Controller;
 
-import fr.ece.bernoux.lab5JavaFX.Exercice2.Model.UserList;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;

@@ -1,0 +1,17 @@
+package fr.ece.bernoux.lab5JavaFX.Exercice3;
+
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
+
+public class Model {
+	private final ObservableList<Majeur> majeurs;
+
+	public Model() {
+		super();
+		this.majeurs = FXCollections.observableArrayList();
+	}
+	
+	
+	
+
+}
