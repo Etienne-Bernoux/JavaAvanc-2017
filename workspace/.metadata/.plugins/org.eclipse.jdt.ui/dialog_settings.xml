@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<section name="org.eclipse.ltk.ui.refactoring.settings">
-		<item value="false" key="renameSubpackages"/>
-		<item value="false" key="updateQualifiedNames"/>
-		<item value="*" key="patterns"/>
-		<item value="false" key="updateSimilarElements"/>
-		<item value="1" key="updateSimilarElementsMatchStrategy"/>
-		<item value="false" key="updateTextualMatches"/>
-	</section>
 	<section name="SelfEncapsulateFieldWizard">
 		<item value="false" key="GenerateJavadoc"/>
-	</section>
-	<section name="GenerateConstructorUsingFieldsSelectionDialog">
-		<item value="false" key="OmitCallToSuper"/>
-	</section>
-	<section name="DialogBounds_SuperInterfaceSelectionDialog">
-		<item value="478" key="DIALOG_WIDTH"/>
-		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
-		<item value="681" key="DIALOG_HEIGHT"/>
-		<item value="111" key="DIALOG_X_ORIGIN"/>
-		<item value="-10" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item value="2" key="layout"/>
@@ -30,10 +12,54 @@
 	</section>
 	<section name="DialogBounds_GenerateConstructorUsingFieldsSelectionDialog">
 		<item value="678" key="DIALOG_WIDTH"/>
-		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|5|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
 		<item value="869" key="DIALOG_HEIGHT"/>
 		<item value="630" key="DIALOG_X_ORIGIN"/>
 		<item value="9" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="SourceActionDialog.constructors">
+		<item value="false" key="SynchronizedModifier"/>
+		<item value="false" key="Comments"/>
+		<item value="1" key="VisibilityModifier"/>
+		<item value="false" key="FinalModifier"/>
+	</section>
+	<section name="OverrideMethodDialog">
+		<item value="true" key="showtypes"/>
+	</section>
+	<section name="DialogBounds_AddUnimplementedConstructorsDialog">
+		<item value="678" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|5|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="806" key="DIALOG_HEIGHT"/>
+		<item value="630" key="DIALOG_X_ORIGIN"/>
+		<item value="9" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="completion_proposal_size">
+		<item value="255" key="size.y"/>
+		<item value="354" key="size.x"/>
+	</section>
+	<section name="AddGetterSetterDialog">
+		<item value="false" key="SortOrdering"/>
+		<item value="false" key="RemoveFinal"/>
+	</section>
+	<section name="JavaElementSearchActions">
+	</section>
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item value="false" key="renameSubpackages"/>
+		<item value="false" key="updateQualifiedNames"/>
+		<item value="*" key="patterns"/>
+		<item value="false" key="updateSimilarElements"/>
+		<item value="1" key="updateSimilarElementsMatchStrategy"/>
+		<item value="false" key="updateTextualMatches"/>
+	</section>
+	<section name="GenerateConstructorUsingFieldsSelectionDialog">
+		<item value="false" key="OmitCallToSuper"/>
+	</section>
+	<section name="DialogBounds_SuperInterfaceSelectionDialog">
+		<item value="478" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="681" key="DIALOG_HEIGHT"/>
+		<item value="111" key="DIALOG_X_ORIGIN"/>
+		<item value="-10" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="org.eclipse.jdt.internal.ui.dialogs.FilteredTypesSelectionDialog">
 		<item value="true" key="ShowStatusLine"/>
@@ -60,15 +86,16 @@
 		<item value="518" key="DIALOG_X_ORIGIN"/>
 		<item value="38" key="DIALOG_Y_ORIGIN"/>
 	</section>
-	<section name="SourceActionDialog.constructors">
-		<item value="false" key="SynchronizedModifier"/>
-		<item value="false" key="Comments"/>
-		<item value="1" key="VisibilityModifier"/>
-		<item value="false" key="FinalModifier"/>
+	<section name="DialogBounds_OverrideMethodDialog">
+		<item value="658" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="605" key="DIALOG_HEIGHT"/>
+		<item value="640" key="DIALOG_X_ORIGIN"/>
+		<item value="121" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="DialogBounds_GetterSetterTreeSelectionDialog">
 		<item value="678" key="DIALOG_WIDTH"/>
-		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|5|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
 		<item value="889" key="DIALOG_HEIGHT"/>
 		<item value="630" key="DIALOG_X_ORIGIN"/>
 		<item value="9" key="DIALOG_Y_ORIGIN"/>
@@ -106,28 +133,11 @@
 	<section name="AddUnimplementedConstructorsDialog">
 		<item value="false" key="OmitCallToSuper"/>
 	</section>
-	<section name="DialogBounds_AddUnimplementedConstructorsDialog">
-		<item value="678" key="DIALOG_WIDTH"/>
-		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|5|0|Segoe UI" key="DIALOG_FONT_NAME"/>
-		<item value="806" key="DIALOG_HEIGHT"/>
-		<item value="630" key="DIALOG_X_ORIGIN"/>
-		<item value="9" key="DIALOG_Y_ORIGIN"/>
-	</section>
 	<section name="quick_assist_proposal_size">
 		<item value="253" key="size.y"/>
 		<item value="356" key="size.x"/>
 	</section>
 	<section name="NewPackageWizardPage">
 		<item value="false" key="create_package_info_java"/>
-	</section>
-	<section name="completion_proposal_size">
-		<item value="255" key="size.y"/>
-		<item value="354" key="size.x"/>
-	</section>
-	<section name="AddGetterSetterDialog">
-		<item value="false" key="SortOrdering"/>
-		<item value="false" key="RemoveFinal"/>
-	</section>
-	<section name="JavaElementSearchActions">
 	</section>
 </section>

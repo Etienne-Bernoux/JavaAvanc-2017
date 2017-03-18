@@ -93,9 +93,9 @@ public class MainSymptome {
 						// System.out.println("\n");
 						if (!symptome.equals("")) {
 							nbsymptome++;
-							mySymptomes.add(new Symptome(nbsymptome, getTitre(symptome, myreponses), nbcluster));
-							String[] lines = symptome.split(" ");
-							for (int l = 0; l < lines.length; l++) {
+							String[] lines = symptome.split("/");
+							mySymptomes.add(new Symptome(nbsymptome,lines[0], nbcluster));
+							for (int l = 1; l < lines.length; l++) {
 								String line = lines[l].replaceAll("[()]+", "");
 								//System.out.println(line);
 								String[] words = line.split("-");
@@ -131,7 +131,7 @@ public class MainSymptome {
 				 }
 		 }
 		 sql += "\n-- Reponses_Symptomes --\n\n";
-		 sql +="INSERT INTO `Reponses_Symptomes` (`Symptome_id`, `Reponse_id`)\n";
+		 sql +="INSERT INTO `reponses_symptomes` (`Symptome_id`, `Reponse_id`)\n";
 		 sql += "VALUES";
 		 
 		 for (ReponseSymptome myReponseSymptome : myReponseSymptomes){

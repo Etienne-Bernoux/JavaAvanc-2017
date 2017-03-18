@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="fr.ece.bernoux.lab3MVC.ex1.Model"/>
-<fullyQualifiedTypeName name="org.w3c.dom.views.AbstractView"/>
-<fullyQualifiedTypeName name="java.lang.Override"/>
-<fullyQualifiedTypeName name="fr.ece.bernoux.lab3MVC.View.GUIListener"/>
-<fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
-<fullyQualifiedTypeName name="javax.swing.text.JTextComponent"/>
-<fullyQualifiedTypeName name="java.util.Observable"/>
-<fullyQualifiedTypeName name="fr.ece.bernoux.lab3MVC.Controller.Controller"/>
-<fullyQualifiedTypeName name="fr.ece.bernoux.lab3MVC.Controller.GUIListener"/>
 <fullyQualifiedTypeName name="fr.ece.bernoux.lab3MVC.View.AbstractView"/>
 <fullyQualifiedTypeName name="java.util.Set"/>
 <fullyQualifiedTypeName name="fr.ece.bernoux.lab3MVC.View.GUI"/>
@@ -28,7 +19,6 @@
 <fullyQualifiedTypeName name="java.util.concurrent.locks.Lock"/>
 <fullyQualifiedTypeName name="java.util.concurrent.atomic.AtomicLong"/>
 <fullyQualifiedTypeName name="fr.ece.bernoux.lab4MultiThread.exo5.Multiplier"/>
-<fullyQualifiedTypeName name="java.lang.Runnable"/>
 <fullyQualifiedTypeName name="javafx.scene.text.Text"/>
 <fullyQualifiedTypeName name="javafx.scene.text.Font"/>
 <fullyQualifiedTypeName name="javafx.scene.Parent"/>
@@ -46,7 +36,6 @@
 <fullyQualifiedTypeName name="javafx.event.EventType"/>
 <fullyQualifiedTypeName name="javafx.event.ActionEvent"/>
 <fullyQualifiedTypeName name="javafx.scene.Group"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="javafx.beans.property.SimpleStringProperty"/>
 <fullyQualifiedTypeName name="javafx.beans.property.SimpleIntegerProperty"/>
 <fullyQualifiedTypeName name="javafx.collections.ObservableList"/>
@@ -60,4 +49,15 @@
 <fullyQualifiedTypeName name="javafx.scene.control.cell.PropertyValueFactory"/>
 <fullyQualifiedTypeName name="fr.ece.bernoux.lab5JavaFX.Exercice3.Majeur"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="java.util.TreeSet"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="java.lang.Comparable"/>
+<fullyQualifiedTypeName name="fr.ece.bernoux.Lab6Lambda.Exercice1.Apply"/>
+<fullyQualifiedTypeName name="java.util.function.Function"/>
+<fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
+<fullyQualifiedTypeName name="java.util.stream.IntStream"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.stream.Stream"/>
 </qualifiedTypeNameHistroy>

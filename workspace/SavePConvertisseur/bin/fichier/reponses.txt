@@ -17,35 +17,36 @@
 17/Pas de trauma physique visible/6/5/6
 18/Complet/1/6/7
 19/Partiel/2/6/7
-20/Tête ou Cou/1/7/8
-21/Thorax/2/7/8
-22/Abdominal/3/7/8
-23/Mains ou Pieds/4/7/8
-24/Membres/5/7/8
-25/Doigts ou orteils/6/7/8
-26/Autres/7/7/8
-27/Importante/1/8/9
-28/Moyenne/2/8/9
-29/Peu/3/8/9
-30/Crachat de sang/4/8/9
-31/Aucun/5/8/9
-32/1/1/9/10
-33/2+/2/9/10
-34/Nourrisson ou enfant/1/10/11
-35/Femme enceinte/2/10/11
-36/Personne âgée/3/10/11
-37/Personne en surpoids/4/10/11
-38/Tout fait accidentel/1/11/12
-39/Noyade/2/11/12
-40/Pendaison/3/11/12
-41/Electrocution ou foudroiement/4/11/12
-42/Personne restant à terre suite à une chute/5/11/12
-43/Tir ou accident avec plaie par arme à feu/6/11/12
-44/Accident de la circulation/7/11/12
-45/Aggression/8/11/12
-46/Aucun/9/11/12
-47/Asthme/1/12/-1
-48/Cancer/2/12/13
-49/Cardiaque/3/12/13
-50/Aucun/4/12/13
-51/Je ne sais pas/5/12/13
+20/Tête/1/7/8
+21/Coy/2/7/8
+22/Thorax/3/7/8
+23/Abdominal/4/7/8
+24/Mains ou Pieds/5/7/8
+25/Membres/6/7/8
+26/Doigts ou orteils/7/7/8
+27/Autres/8/7/8
+28/Jet de sang/1/8/9
+29/Moyenne/2/8/9
+30/Peu/3/8/9
+31/Crachat de sang/4/8/9
+32/Aucun/5/8/9
+33/1/1/9/10
+34/2+/2/9/10
+35/Nourrisson ou enfant/1/10/11
+36/Femme enceinte/2/10/11
+37/Personne âgée/3/10/11
+38/Personne en surpoids/4/10/11
+39/Tout fait accidentel/1/11/12
+40/Noyade/2/11/12
+41/Pendaison/3/11/12
+42/Electrocution ou foudroiement/4/11/12
+43/Personne restant à terre suite à une chute/5/11/12
+44/Tir ou accident avec plaie par arme à feu/6/11/12
+45/Accident de la circulation/7/11/12
+46/Aggression/8/11/12
+47/Aucun/9/11/12
+48/Asthme/1/12/-1
+49/Cancer/2/12/13
+50/Cardiaque/3/12/13
+51/Aucun/4/12/13
+52/Je ne sais pas/5/12/13

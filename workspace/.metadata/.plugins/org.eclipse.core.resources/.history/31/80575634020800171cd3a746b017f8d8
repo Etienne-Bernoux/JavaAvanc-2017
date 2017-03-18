@@ -1,0 +1,10 @@
+package fr.ece.bernoux.Lab6Lambda.Exercice2;
+
+public class random {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

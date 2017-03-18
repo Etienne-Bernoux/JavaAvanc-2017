@@ -13,4 +13,5 @@ VALUES(1,"Urgence ou conseil médical?"),
 (9,"Nombre de victime?	"),
 (10,"Profil de la victime?"),
 (11,"Nature de l'accident?"),
-(12,"Antécédents médicaux?");
+(12,"Antécédents médicaux?"),
+(13,"Fin du questionnaire");

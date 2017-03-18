@@ -1,0 +1,9 @@
+package fr.ece.bernoux.Lab6Lambda.Exercice1;
+
+import java.util.Comparator;
+
+@FunctionalInterface
+public abstract class Apply<A,B, R> implements Comparator<A, R>{
+	
+	public R apply(A a, B b);
+}

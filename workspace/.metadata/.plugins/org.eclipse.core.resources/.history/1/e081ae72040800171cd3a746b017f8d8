@@ -1,0 +1,15 @@
+package fr.ece.bernoux.Lab6Lambda.Exercice2;
+
+import java.util.OptionalDouble;
+import java.util.Random;
+
+public class random {
+
+	public static void main(String[] args) {
+		OptionalDouble average = new Random().ints(1000,0,100).average();
+		System.out.println(average);
+		 
+
+	}
+
+}

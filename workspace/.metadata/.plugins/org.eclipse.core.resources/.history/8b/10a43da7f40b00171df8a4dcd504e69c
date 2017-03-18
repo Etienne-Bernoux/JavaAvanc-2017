@@ -1,0 +1,15 @@
+package fr.ece.bernoux.Lab6Lambda.Exercice2;
+
+import java.util.stream.Stream;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Stream.of(new Teacher("Ravaut", Gender.MALE),
+				new Teacher("Soukane", Gender.FEMALE),
+				new Teacher("Palasi", Gender.FEMALE),
+				new Teacher("Segado", Gender.MALE),
+				new Teacher("Diedler", Gender.MALE));
+	}
+}

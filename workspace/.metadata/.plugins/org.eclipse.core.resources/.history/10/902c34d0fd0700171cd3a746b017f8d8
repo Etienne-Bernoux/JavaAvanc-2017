@@ -1,0 +1,11 @@
+package fr.ece.bernoux.Lab6Lambda.Exercice1;
+
+public class Function2<A, B, R> implements Apply<A, B, R>{
+
+	@Override
+	public R apply(A a, B b) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
