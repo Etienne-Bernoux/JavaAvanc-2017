@@ -1,0 +1,21 @@
+package fr.ece.bernoux.Lab6Lambda.Exercice2;
+
+import java.util.Random;
+import java.util.stream.Stream;
+
+
+/**
+ * 
+ * @author Etienne & Nicolas
+ *
+ */
+public class MyRandom {
+
+	public static void main(String[] args) {
+    Stream.of(new Random().ints(1000,0,100).average()).forEach(System.out::println);
+
+	 
+
+	}
+
+}

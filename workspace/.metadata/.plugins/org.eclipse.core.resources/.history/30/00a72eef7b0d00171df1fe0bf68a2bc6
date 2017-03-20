@@ -1,0 +1,10 @@
+package fr.ece.bernoux.Lab6Lambda.Exercice2;
+
+/**
+ * 
+ * @author Etienne & Nicolas
+ */
+public enum Gender{
+	MALE,
+	FEMALE
+}

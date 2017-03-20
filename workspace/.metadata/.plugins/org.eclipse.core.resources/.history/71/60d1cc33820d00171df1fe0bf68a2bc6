@@ -1,0 +1,17 @@
+package fr.ece.bernoux.Lab6Lambda.Exercice3;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		//New sequence using 
+		ISeq<String> seq = new ISeq.Cons<String>("hello ",new ISeq.Cons<String>("world!",new ISeq.Nil<String>()));
+		seq.forEach(System.out::print);
+		
+		seq = new ISeq.NilFactory<String>().creator();
+		ISeq<String> seq2 = seq.prepend("world!").prepend(" ").prepend("\nhello");
+		seq2.forEach(System.out::print);
+
+	}
+
+}

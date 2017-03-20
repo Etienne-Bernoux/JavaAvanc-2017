@@ -1,0 +1,40 @@
+package fr.ece.bernoux.Lab6Lambda.Exercice2;
+
+/**
+ * class teacher
+ * 
+ * @author Etienne & Nicolas
+ *
+ */
+public class Teacher {
+	private final String name;
+	private final Gender gender ;
+	
+	
+	
+	public Teacher(String name, Gender gender) {
+		super();
+		this.name = name;
+		this.gender = gender;
+	}
+	
+
+	public Gender getGender() {
+		return gender;
+	}
+
+
+	public String getName() {
+		return name;
+	}
+
+
+	@Override
+	public String toString() {
+		return "Teacher [name=" + name + ", gender=" + gender + "]";
+	}
+	
+	
+
+}
+
