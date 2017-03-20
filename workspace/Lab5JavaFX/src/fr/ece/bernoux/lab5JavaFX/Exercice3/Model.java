@@ -13,10 +13,10 @@ public class Model {
 		this.majeurs = FXCollections.observableArrayList();
 		this.pieChartData = FXCollections.observableArrayList();
 		
-		this.addMajeur("Système d'information", 150);
-		this.addMajeur("Système embarqué", 120);
+		this.addMajeur("SystÃ¨me d'information", 150);
+		this.addMajeur("SystÃ¨me embarquÃ©", 120);
 		this.addMajeur("Finance", 100);
-		this.addMajeur("Santé", 70);
+		this.addMajeur("SantÃ©", 70);
 	}
 
 	public ObservableList<Majeur> getMajeurs() {

@@ -2,6 +2,7 @@ package fr.ece.bernoux.Lab6Lambda.Exercice1;
 
 import java.util.Comparator;
 import java.util.TreeSet;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class Lambda {
@@ -13,18 +14,19 @@ public class Lambda {
 		
 		TreeSet<String> treeset = new TreeSet<>((s1,s2) -> s1.compareTo(s2));
 		treeset.add("toto");
+		
+		Stream.of(treeset)
+		.forEach(System.out::println);
 			
-		//Apply<String, String>
-		Comparator<String> choucroute = (s1,s2) -> s1.compareTo(s2);
+		Comparator<String> myComparator = (s1,s2) -> s1.compareTo(s2);
 		
-		TreeSet<String> treeset2 = new TreeSet<>(choucroute);
-		treeset2 = (TreeSet<String>) Stream.of("toto","titi").sorted(choucroute);
-		
-		
-		
-		for (String string : treeset) {
-			System.out.println(string);
-		}
+		TreeSet<String> treeset2 =new TreeSet<String>( Stream.of("toto","titi","tutu")
+				.sorted(myComparator)
+				.collect(Collectors.toList()));
+			
+		Stream.of(treeset2)
+		.forEach(System.out::println);
+
 		
 	}
 	

@@ -1,8 +1,0 @@
-package fr.ece.bernoux.Lab6Lambda.Exercice1;
-
-import java.util.function.Function;
-
-@FunctionalInterface
-public interface Apply<A,B, R> extends Function<A, R> {
-	public R apply(A a, B b);
-}

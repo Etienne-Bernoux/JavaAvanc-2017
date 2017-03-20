@@ -1,6 +1,0 @@
-package fr.ece.bernoux.Lab6Lambda.Exercice1;
-
-@FunctionalInterface
-public interface Apply {
-
-}

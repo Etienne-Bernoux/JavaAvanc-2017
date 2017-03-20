@@ -1,5 +1,0 @@
-package fr.ece.bernoux.Lab6Lambda.Exercice3;
-
-public interface Seq {
-
-}

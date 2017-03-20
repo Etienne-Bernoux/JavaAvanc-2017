@@ -16,6 +16,11 @@ public class Teacher {
 	public Gender getGender() {
 		return gender;
 	}
+
+
+	public String getName() {
+		return name;
+	}
 	
 
 }

@@ -1,4 +1,0 @@
-#button {
-	-fx-background-color : red;
-	-fx-fill-text : #ffffff ;
-}

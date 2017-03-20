@@ -1,7 +1,0 @@
-package fr.ece.bernoux.Lab6Lambda.Exercice3;
-
-import java.util.function.Consumer;
-
-public interface Seq {
-	void forEach(Consumer<Object> consumer);
-}
