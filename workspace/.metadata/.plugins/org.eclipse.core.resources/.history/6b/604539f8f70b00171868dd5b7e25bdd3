@@ -1,0 +1,10 @@
+package fr.ece.bernoux.Lab6Lambda.Exercice3;
+
+public class NIi implements Seq {
+
+	public NIi() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+}

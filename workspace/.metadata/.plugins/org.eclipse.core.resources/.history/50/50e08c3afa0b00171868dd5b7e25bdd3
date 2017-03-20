@@ -1,0 +1,10 @@
+package fr.ece.bernoux.Lab6Lambda.Exercice3;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Seq seq = new Cons("hello",)
+
+	}
+
+}

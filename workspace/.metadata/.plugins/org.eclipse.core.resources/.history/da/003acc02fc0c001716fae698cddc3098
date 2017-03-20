@@ -1,0 +1,15 @@
+package fr.ece.bernoux.Lab6Lambda.Exercice3;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Seq seq = new Seq.Cons("hello ",new Seq.Cons("world!",new Seq.NIi()));
+		seq.forEach(System.out::print);
+		
+		seq = Seq.nil();
+		Seq seq2 = seq.prepend("world").prepend("\nhello");
+		seq2.forEach(System.out::println);
+
+	}
+
+}
